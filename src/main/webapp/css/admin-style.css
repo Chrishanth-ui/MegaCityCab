@@ -1,0 +1,32 @@
+/* Admin Panel Custom Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.welcome-text {
+    color: #2C3E50;
+    font-weight: bold;
+}
+
+.admin-card {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-card .btn {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.admin-card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
